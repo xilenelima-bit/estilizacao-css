@@ -1,0 +1,50 @@
+/* 1. Estilo da página inteira */
+body {
+  background-color: #c688bf;      /* MUDE A COR DE FUNDO */
+  color: #14020d;                 /* MUDE A COR DO TEXTO */
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* 2. Estilo dos títulos */
+h1, h2, h3 {
+  color: #12010b;                 /* MUDE A COR DOS TÍTULOS */
+}
+
+/* 3. Caixa do cartão */
+.cartao {
+  background-color: #FFFFF0;      /* MUDE A COR DO CARTÃO */
+  border: 2px solid #3f0228; 
+  border-radius:10px;     /* MUDE A BORDA */
+  padding: 20px;
+}
+
+/* 4. Imagem central */
+.area-imagem {
+  text-align: left;
+}
+
+.foto-destaque {
+  width: 400px;
+  border: 2px solid #3f0228;
+  border-radius:10px;
+                   /* MUDE O TAMANHO DA FOTO */
+}
+
+/* 5. Foco do teclado (NÃO APAGAR) */
+input:focus, button:focus {
+  outline: 4px solid #c688bf;
+}
+.fieldset{
+  border: 2px solid #3f0228; 
+  border-radius:50px;     /* MUDE A BORDA */
+  padding: 20px;
+
+}
+
+/* =================================================
+   SUA VEZ! CRIE SUAS REGRAS ABAIXO:
+.fieldset (ex: border)
+   - Estilize o button (ex: background-color, color, padding)
+   - Estilize o footer ou o input
+   ================================================= */

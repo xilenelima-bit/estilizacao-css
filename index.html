@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Stúdio Vida Ativa</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header>
+    <h1>BELEZA & BEM ESTAR</h1>
+  </header>
+
+  <main>
+    <div class="cartao">
+      <h2>Nosso Stúdio é um espaço voltado para o cuidado estético,<br> o relaxamento físico e o equilíbrio mental</h2>
+
+      <!-- IMAGEM CENTRAL (Usa uma foto de exemplo que já funciona, mas podem trocar o link) -->
+      <div class="area-imagem">
+        <img 
+          src="vida ativa.jpg" 
+          alt="imagem de creme hidratante e pinceis para maquiagem" 
+          class="foto-destaque"
+        >
+      </div>
+
+      <p>Ambiente acolhedor e experiências personalizadas.</p>
+
+      <!-- FORMULÁRIO INTERATIVO -->
+      <form>
+        <p>
+          <label for="nome-visitante">Seu Nome:</label>
+          <input type="text" id="nome-visitante" placeholder="Digite seu nome">
+        </p>
+
+        <h3>Selecione a opção desejada</h3>
+
+        <!-- Exemplo de RADIO (Escolha ÚNICA) -->
+        <fieldset>
+          <legend>1. Escolha a área de atendimento:</legend>
+          
+          <input type="radio" id="op1" name="favorito" value="opcao1">
+          <label for="op1">Estética Facial e Corporal</label><br>
+
+          <input type="radio" id="op2" name="favorito" value="opcao2">
+          <label for="op2">Terapias Integrativas</label>
+        </fieldset>
+
+        <!-- Exemplo de CHECKBOX (Escolha MÚLTIPLA - Novidade!) -->
+        <fieldset>
+          <legend>2. Quais especialidades você procura:</legend>
+
+          <input type="checkbox" id="check1" name="interesses" value="item1">
+          <label for="check1">Massagem relaxante</label><br>
+
+          <input type="checkbox" id="check2" name="interesses" value="item2">
+          <label for="check2">Massagem modeladora</label><br>
+
+          <input type="checkbox" id="check3" name="interesses" value="item3">
+          <label for="check3">Esfoliação e banho detox</label><br>
+
+          <input type="checkbox" id="check3" name="interesses" value="item3">
+          <label for="check3">Consultoria de autocuidado</label><br>
+
+          <input type="checkbox" id="check3" name="interesses" value="item3">
+          <label for="check3">Terapias com acessórios</label>
+
+
+
+
+        </fieldset>
+
+        <button type="submit">Enviar Respostas</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>Atividade de fixação de CSS - 2026</p>
+  </footer>
+
+</body>
+</html>
